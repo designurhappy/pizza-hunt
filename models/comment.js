@@ -15,7 +15,5 @@ const CommentSchema = new Schema({
 
 const Comment = model('Comment', CommentSchema);
 
-const pizza = await Pizza.findOne()
-pizza.commentCount // 5
 
 module.exports = Comment;
